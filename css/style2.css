@@ -1,0 +1,70 @@
+body,html {
+     font-family:Arial, Sans-Serif;
+    background: url(../img/bin.jpg) center;
+    background: cover;
+    margin: 0px;
+    
+    
+}
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+}
+.form{
+     width: 300px;
+     margin-left: 600px;
+    margin-top: 240px;
+    margin-bottom: 100px;
+    opacity: 0.7;
+    
+}
+.rate{
+    background-color: rgb(83,92,89,0.6);
+    width:400px;
+    margin: 0;
+    padding:59px;
+    text-align: center;
+    color: white;
+    font-family: roboto;
+}
+.rate1{
+    background:url(../img/645472-POPYUK-702.jpg) center;
+    background-size: cover;
+    
+    
+}
+input[type='text'], input[type='email'],
+input[type='password'] {
+     width: 200px;
+     border-radius: 2px;
+     border: 1px solid #CCC;
+     padding: 10px;
+     color: #333;
+     font-size: 14px;
+     margin-top: 10px;
+}
+input[type='submit']{
+     padding: 10px 25px 8px;
+     color: #fff;
+     background-color: #0067ab;
+     text-shadow: rgba(0,0,0,0.24) 0 1px 0;
+     font-size: 16px;
+     box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0;
+     border: 1px solid #0164a5;
+     border-radius: 2px;
+     margin-top: 10px;
+     cursor:pointer;
+}
+input[type='submit']:hover {
+     background-color: #024978;
+}
